@@ -1,0 +1,17 @@
+age = 20
+item = 5
+print("age : ", age)
+print("items : ", item)
+
+age = float(age)
+item = float(item)
+print("age : ", age)
+print("items: ", item)
+
+
+Explanation:
+The code first prints age and item as integers (20 and 5). Then it
+converts both to floats using float() - this is type conversion,
+changing an int to a float. After conversion, age becomes 20.0 and
+item becomes 5.0, and the second print statements show these decimal
+values instead of whole numbers.
